@@ -28,7 +28,7 @@ Part four allows you to spend the money order with a merchant. The merchant will
 Part five, the merchant deposits the money order in the bank. If the same money order has already been deposited, the bank will inform the merchant than the money order has already been deposited, by verifying the uniqueness string, and the merchent will not be able to deposit it twice. The deposited money orders will go into a directory called "Spent_Money_Orders". This is why it is important that two money orders do not randomly end up with the same uniqueness string, because if they do, only one will be able to be deposited. 
 
 
-
+RECOMMENDATION - It is recommended that you run through each part of the program in order from one through five, before attempting to skip steps or run individual steps, because the files need to be generated as you go. Part two is dependant on part one, and part three is dependant on part two and so on. Once the files are generated, you may run the program in any order that you like. 
 
 DISCLAIMER - If any part of the program, or files are modified in any way, unforseen errors may occur. Please modify the program and files at your own risk. This program was developed for demonstration purposes only. The demo is shown by going through the program step by step, in order one through five. This will automatically generate the files required for the following steps. You may modify the files once they are generated for proof of concept, however we are not liable for any errors that may occur. 
 
